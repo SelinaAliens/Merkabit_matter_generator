@@ -60,8 +60,19 @@ Python 3.10+. Dependencies: `python-docx`. Scripts are tracked-change editors / 
 
 ## Companion repositories
 
-- **`Riemanns_alignment`** — Papers 37, 38, 39 (Hilbert-Pólya candidate, axis-genesis, Genesis Sequence audit)
-- **`Riemanns_resolution`** — Papers 40 (closure-counting empirical) + 41 (RH from STT theorem synthesis)
+- **`Riemanns_alignment`** — Papers 37 (Hilbert-Pólya candidate) + 38 (axis-genesis)
+- **`genesis_sequence_merkabit`** — Paper 39 (Architectural Genesis Sequence; two-flow uplift → tesseract self-sustainment audit)
+- **`Riemanns_resolution`** — Papers 40 (Fano-cycle closures / 2000-zero empirical) + 41 (RH from STT theorem synthesis on the Klein quartic)
+
+## Published companion papers (all Zenodo, May 2026)
+
+| # | Title | Zenodo DOI |
+|---|-------|-----------|
+| 37 | A Simulation-Verified, Hardware-Pre-Registered Hilbert-Pólya Candidate from the Merkabit Architecture | [10.5281/zenodo.20205429](https://doi.org/10.5281/zenodo.20205429) |
+| 38 | The First Uplift: Axis-Genesis as the Architectural Origin of Rotational Structure | [10.5281/zenodo.20205440](https://doi.org/10.5281/zenodo.20205440) |
+| 39 | The Architectural Genesis Sequence: From Two-Flow Uplift to Tesseract Self-Sustainment | [10.5281/zenodo.20205477](https://doi.org/10.5281/zenodo.20205477) |
+| 40 | Part 1: Riemann Zeros as Fano-Cycle Closures of a σ-Equivariant Operator System (2000 cached zeros) | [10.5281/zenodo.20205599](https://doi.org/10.5281/zenodo.20205599) |
+| 41 | Part 2: Synthesis — σ-Equivariant Fano-Cycle Operator System on the Klein Quartic + Selberg Trace + STT Theorem | [10.5281/zenodo.20205552](https://doi.org/10.5281/zenodo.20205552) |
 
 The RH-resolution chain (Papers 37 → 41) feeds into Paper 42: the σ-equivariant Fano-cycle operator system, the σ-fixed pivot, and the asymmetric inclusion principle that Papers 40/41 establish are the substrate machinery on which Paper 42's matter-generator argument is built.
 

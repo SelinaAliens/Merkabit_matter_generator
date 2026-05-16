@@ -1,5 +1,5 @@
 """
-Update §10 Conclusion and version footer of Paper_41_Matter_Generator_v9.docx
+Update §10 Conclusion and version footer of Paper_42_Matter_Generator_v9.docx
 to reflect the §2.9 bipartite-vacuum / Λ-rate addition.
 
 Changes:
@@ -17,7 +17,7 @@ from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
 HERE = Path(__file__).resolve().parent
-DOC = HERE / "Paper_41_Matter_Generator_v9.docx"
+DOC = HERE / "Paper_42_Matter_Generator_v9.docx"
 
 
 def make_para(text, italic=False):
@@ -153,10 +153,10 @@ def main():
     # ----------------------------------------------------------------
     # STEP 3: Update the version footer
     # ----------------------------------------------------------------
-    # Find the "Paper 41, draft v6" header line
+    # Find the "Paper 42, draft v6" header line
     version_header = None
     for p in doc.paragraphs:
-        if "Paper 41, draft v6" in p.text:
+        if "Paper 42, draft v6" in p.text:
             version_header = p
             break
 
@@ -166,7 +166,7 @@ def main():
         # Update to v9
         replace_paragraph_text(
             version_header,
-            "Paper 41, draft v9. Date: 2026-05-14. Author: Stenberg, S. with Claude Anthropic."
+            "Paper 42, draft v9. Date: 2026-05-14. Author: Stenberg, S. with Claude Anthropic."
         )
 
         # Insert new version entries (v9, v8, v7) after the version header,

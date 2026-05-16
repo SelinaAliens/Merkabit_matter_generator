@@ -1,4 +1,4 @@
-"""Extract every paragraph in Paper 41 v11 that mentions an axis or Re(s)/Im(s).
+"""Extract every paragraph in Paper 42 v11 that mentions an axis or Re(s)/Im(s).
 
 Output:
   - paragraph index
@@ -11,7 +11,7 @@ from pathlib import Path
 from docx import Document
 
 HERE = Path(__file__).resolve().parent
-DOC = HERE / "Paper_41_Matter_Generator_v11.docx"
+DOC = HERE / "Paper_42_Matter_Generator_v11.docx"
 
 KEYWORDS = [
     "x-axis", "y-axis", "z-axis",
@@ -28,7 +28,7 @@ KEYWORDS = [
 
 def main():
     doc = Document(str(DOC))
-    print("Paper_41_Matter_Generator_v11.docx — axis-statement scan")
+    print("Paper_42_Matter_Generator_v11.docx — axis-statement scan")
     print("=" * 70)
     print("Total paragraphs: %d" % len(doc.paragraphs))
     print()
