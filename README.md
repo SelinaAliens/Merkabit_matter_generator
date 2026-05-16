@@ -45,8 +45,8 @@ The version markers in script filenames refer to the master-document version aga
 ## Reproducibility
 
 ```bash
-git clone https://github.com/selinaserephina-star/Merkabit_the_matter_generator.git
-cd Merkabit_the_matter_generator
+git clone https://github.com/SelinaAliens/Merkabit_matter_generator.git
+cd Merkabit_matter_generator
 pip install python-docx
 
 # Each script operates on a .docx master (path hard-coded per script)
